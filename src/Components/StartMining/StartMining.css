@@ -1,0 +1,7 @@
+.StartMinin {
+    padding: 50px;
+    background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+    display: grid;
+    place-items: center;
+    padding-bottom: 150px;
+}

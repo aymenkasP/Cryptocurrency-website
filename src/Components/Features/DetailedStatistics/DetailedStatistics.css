@@ -1,0 +1,58 @@
+.DetailedStatistics {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.DetailedStatistics-img img  {
+    flex:1 ;
+}
+
+.DetailedStatistics-text {
+    flex: 0.9;
+    margin-right: 120px;
+}
+
+.DetailedStatistics-text h2 {
+    font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 150%;
+/* identical to box height, or 48px */
+
+
+/* Neutral / White */
+
+color: #FFFFFF;
+}
+
+.DetailedStatistics-text p {
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+letter-spacing: 0.01em;
+
+/* Neutral / Grey 5 */
+
+color: #E0E0E0;
+}
+
+
+@media only screen and (max-width: 1136px) 
+{
+    .DetailedStatistics {
+        margin-top:30%;
+        flex-direction: column;
+    }
+
+    .DetailedStatistics-text {
+        display: grid;
+        place-items: start;
+        padding: 22Px;
+        max-width: 300px;
+    }
+}

@@ -1,0 +1,130 @@
+.StartMiningNow {
+    background-image: url("./svg/MaskGroup.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size:content;
+    background: #3671E9;
+    border-radius: 16px;
+    width: 85%;
+    margin-top: 100px;
+}
+
+.StartMiningNow-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding:2px 0px 20px 0px;
+}
+
+.StartMiningNow-input {
+    display: flex;
+    flex: 0.4;
+    justify-content: center;
+}
+
+.StartMiningNow-input input {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: transparent;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    width: 100%;
+    /* identical to box height, or 175% */
+
+    letter-spacing: 0.01em;
+
+    /* Neutral/White */
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+.StartMiningNow-input button {
+    background: #FFFFFF;
+    border-radius: 32px;
+    border: none;
+    padding: 14px 32px;
+    margin-left: 40px;
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+
+text-align: center;
+
+/* Color / Primary */
+
+color: #0D0D2B;
+
+}
+
+.StartMiningNow-text {
+    flex: 0.3;
+}
+
+.StartMiningNow-text h3 {
+
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 150%;
+/* identical to box height, or 48px */
+
+
+/* Neutral/White */
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+}
+
+.StartMiningNow-text p {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    
+    letter-spacing: 0.01em;
+    
+    /* Neutral/White */
+    
+    color: #FFFFFF;
+    
+    mix-blend-mode: normal;
+}
+
+@media only screen and (max-width: 919px){
+    .StartMiningNow-container {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 746px){
+    .StartMiningNow-container {
+        flex-direction: column;
+        padding :22px
+    }
+    .StartMiningNow-input  {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding :12px
+    }
+
+    .StartMiningNow-input input {
+        margin-bottom:12px;
+        width: 100%;
+    }
+
+    .StartMiningNow-input button {
+        margin-left: 0;
+    }
+}

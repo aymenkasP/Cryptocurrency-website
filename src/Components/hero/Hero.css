@@ -1,0 +1,102 @@
+.hero {
+    background-image: url("./background.svg");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 50%;
+    margin-bottom: 100px;
+    height: 100vh;
+    
+    
+}
+
+.hero-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 99px;
+}
+
+.hero-container  p , .hero-container h1 {
+ margin:2.5rem 0;
+}
+
+.hero-promo-span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    background-color: #FFFFFF;
+    padding: 4px 16px;
+    background: #FFFFFF;
+    border-radius: 32px;
+}
+
+.hero-promo {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 32px;
+    max-width: 400px;
+    padding :0.2rem;
+}
+
+.promo-text {
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+padding-left: 1rem;
+/* identical to box height, or 175% */
+
+letter-spacing: 0.01em;
+
+/* Neutral / White */
+
+color: #FFFFFF;
+}
+
+.hero-title {
+    font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 76px;
+max-width: 588px;
+
+/* Neutral / White */
+
+color: #FFFFFF;
+}
+
+.subtitle {
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+letter-spacing: 0.01em;
+color: #E0E0E0;
+max-width: 435px;
+}
+
+.hero-btn {
+    background: #3671E9;
+    border-radius: 32px;
+    padding: 16px 16px 16px 24px;
+    border :none;
+    display: flex;
+    align-items: center;
+    
+}
+
+.hero-btn span {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    padding-right: 1rem;
+}
+
+@media only screen and (max-width: 799px) {
+    .hero {
+        background-image: none;
+    }
+}

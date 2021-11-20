@@ -1,0 +1,15 @@
+.flex-between { 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.container-why {
+    width: 80%;
+    margin: auto;
+}
+
+
+    

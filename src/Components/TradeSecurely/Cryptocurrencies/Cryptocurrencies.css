@@ -1,0 +1,18 @@
+.Cryptocurrencies {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+.Cryptocurrencies-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    /* or 60px */
+    max-width:741px;
+    text-align: center;
+
+    /* Color / Primary */
+
+    color: #0D0D2B;
+}

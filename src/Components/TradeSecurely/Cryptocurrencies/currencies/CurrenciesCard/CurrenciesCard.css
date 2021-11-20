@@ -1,0 +1,134 @@
+.CurrenciesCard {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    width: 370px;
+    margin:1rem;
+    height: 433px;
+border-radius: 16px;
+}
+
+.selected {
+    background: #2B076E;
+    backdrop-filter: blur(250px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 16px;
+/* Note: backdrop-filter has minimal browser support */
+
+}
+
+.noSelected {
+    background: #FFFFFF;
+    mix-blend-mode: overlay;
+    box-shadow: 0px 5px 5px #c7c7c7;
+    border-radius: 16px;
+   
+}
+
+.noSelected h2  {
+    color: #0D0D2B !important;
+}
+.noSelected h2 span {
+    color: #7a7a7a !important;
+}
+.noSelected p {
+    font-style: normal !important;
+font-weight: normal !important;
+font-size: 16px !important;
+line-height: 28px !important;
+/* or 175% */
+
+text-align: center !important;
+letter-spacing: 0.01em !important;
+
+/* Neutral / Grey 3 */
+
+color: #828282;
+}
+
+.CurrenciesCard-icon {
+    padding-top: 40px;
+}
+.CurrenciesCard-title h2 {
+    margin: 0;
+    font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 150%;
+/* identical to box height, or 48px */
+
+text-align: center;
+
+/* Neutral / White */
+
+color: #FFFFFF;
+}
+
+.CurrenciesCard-title span {
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    margin-left: 0.7rem;
+    /* identical to box height, or 27px */
+
+   
+
+    /* Neutral / White */
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+}
+
+.CurrenciesCard-subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    width: 322px;
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    /* Neutral / White */
+
+    color: #FFFFFF;
+}
+
+.Currencies-btn-selected {
+    padding: 16px 16px 16px 24px;
+    background: #3671E9;
+    border-radius: 32px;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+    text-align: center;
+
+    /* Neutral / White */
+
+    color: #FFFFFF;
+}
+
+.Currencies-btn-selected span {
+    display: flex;
+    margin-left:24px;
+}
+
+
+.Currencies-btn {
+    border: none  ;
+    background-color:transparent;
+}
+
+.CurrenciesCard-btn-section {
+    margin-bottom: 48px;
+}
