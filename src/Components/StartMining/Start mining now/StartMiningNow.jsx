@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./StartMiningNow.css"
 export default function StartMiningNow() {
+    const [Input, setInput] = useState("Enter your email")
     return (
         <div className="StartMiningNow" >
         <div data-aos="zoom-in-up">
@@ -13,7 +14,7 @@ export default function StartMiningNow() {
                 </p>
         </div>
             <div className="StartMiningNow-input">
-                <input type="text" value="Enter your email" />
+                <input type="text" value={Input} onChange={({target}) => setInput(target.value)}/>
                 <button>
                   Subscribe
                 </button>

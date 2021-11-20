@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Calculate.css"
 
 export default function Calculate() {
+    const [Input, setInput] = useState("Enter your hash rate")
     return (
         <div data-aos="flip-up">
 
@@ -9,7 +10,7 @@ export default function Calculate() {
 
           <div className = "calculate-input">
 
-            <input type="text" value="Enter your hash rate" /> 
+            <input type="text" value={Input} onChange={({target}) => setInput(target.value)} /> 
             <select id="demo-list">
                 <option value="TH/s" title="TH/s">TH/s</option>
                 <option value="TH/s" title="TH/s">TH/s</option>
